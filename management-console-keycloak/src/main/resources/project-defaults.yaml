@@ -1,0 +1,23 @@
+swarm:
+  deployment:
+    example-management-console-kc.war:
+      web:
+        login-config:
+          auth-method: KEYCLOAK
+        security-constraints:
+          - url-pattern: /service
+            methods: [GET]
+            roles: [admin]
+    management-console-ui.war:
+      web:
+        login-config:
+          auth-method: KEYCLOAK
+        security-constraints:
+          - url-pattern: /*
+            methods: [GET]
+            roles: [admin]
+  management:
+    http-interface-management-interface:
+      allowed-origins:
+       - http://localhost:8080
+

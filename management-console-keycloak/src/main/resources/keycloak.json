@@ -1,0 +1,9 @@
+{
+  "realm": "wildfly-swarm-browser-client",
+  "auth-server-url": "http://localhost:8180/auth",
+  "ssl-required": "external",
+  "resource": "wildfly-swarm-browser-client-example",
+  "credentials": {
+    "secret": "b4ef589e-b369-419c-aa99-fe48e521a373"
+  }
+}
