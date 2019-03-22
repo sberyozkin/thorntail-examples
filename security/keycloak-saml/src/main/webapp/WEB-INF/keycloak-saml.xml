@@ -39,7 +39,7 @@
             <SingleSignOnService signRequest="true"
                                  validateResponseSignature="true"
                                  requestBinding="REDIRECT"
-                                 bindingUrl="http://localhost:8080/auth/realms/saml-demo/protocol/saml"
+                                 bindingUrl="http://localhost:8180/auth/realms/saml-demo/protocol/saml"
                     />
 
             <SingleLogoutService
@@ -49,7 +49,7 @@
                     signResponse="true"
                     requestBinding="REDIRECT"
                     responseBinding="REDIRECT"
-                    redirectBindingUrl="http://localhost:8080/auth/realms/saml-demo/protocol/saml"
+                    redirectBindingUrl="http://localhost:8180/auth/realms/saml-demo/protocol/saml"
                     />
             <Keys>
                 <Key signing="true">
