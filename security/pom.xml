@@ -26,6 +26,7 @@
     <module>jaas</module>
     <module>keycloak</module>
     <module>keycloak-multitenancy</module>
+    <module>keycloak-saml</module>
     <module>jose</module>
     <module>ee-security-basic</module>
   </modules>
