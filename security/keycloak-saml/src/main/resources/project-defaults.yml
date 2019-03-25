@@ -1,10 +1,10 @@
 swarm:
   deployment:
-    example-keycloak.war:
+    example-keycloak-saml.war:
       web:
         login-config:
           auth-method: KEYCLOAK-SAML
         security-constraints:
-          - url-pattern: /app/secured
+          - url-pattern: /employee-sig
             methods: [GET]
             roles: [manager]

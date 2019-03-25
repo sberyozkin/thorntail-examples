@@ -14,7 +14,7 @@
     <version>2.4.1.Final-SNAPSHOT</version>
   </parent>
 
-  <artifactId>example-keycloak-sample</artifactId>
+  <artifactId>example-keycloak-saml</artifactId>
 
   <name>Thorntail Examples: Keycloak SAML</name>
   <description>Thorntail Examples: Keycloak SAML</description>

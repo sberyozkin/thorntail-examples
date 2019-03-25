@@ -5,7 +5,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.SecurityContext;
 
-@Path("/")
+@Path("employee-sig")
 public class SecuredResource {
 
     @GET
