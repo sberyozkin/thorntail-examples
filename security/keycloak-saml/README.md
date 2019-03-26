@@ -68,8 +68,10 @@ mvn clean package
 java -jar target/example-keycloak-saml-thorntail.jar
 ```
 
-### Access the public client page
+### Access the JAX-RS endpoint from the browser
 
-Navigate the browser to "http://localhost:8080/employee-sig" 
+Navigate the browser to "http://localhost:8080/employee-sig"
 
-TODO: provide the login and password 
+You will be redirected to Keycloak, login with a user name 'bill' and a password 'password'.
+
+You'll get the response which contains `Hi bill, this is Secured Resource'
